@@ -1,0 +1,63 @@
+body{
+    
+    background: linear-gradient(45deg, #0c1411, #163529) ; /* Bottom color */
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#body-container{
+    /*background: linear-gradient(45deg, #091611, #ffd700);
+    display: flex;
+    background-color: #18392D;*
+    height: 600px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+    background: linear-gradient(45deg, rgba(17, 17, 17, 0.5), rgba(235, 230, 230, 0.2));
+  /* Top color with transparency */
+  box-shadow: 0 5px 5px rgba(252, 251, 251, 0.8), 0 8px 15px rgba(148, 90, 3, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  
+  border: 2px solid rgb(243, 238, 238);
+  
+    
+    
+      }
+    
+    
+
+
+#logo{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    width: 600px;
+    height: auto;
+    font-size: 50px;
+    font-family:  serif;
+    
+}
+
+#the-hairdresser{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    width: 600px;
+    height: auto;
+    font-size: 50px;
+}
+#enter-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
